@@ -1131,6 +1131,7 @@ function createServer({ port = 3000, logger, metrics } = {}) {
 										<button class="game-cell" type="button"></button>
 									</div>
 									<p class="stat-line">Score: <span id="score-value">0</span></p>
+									<p>CI/CD deployment test – 23 July 2026, 14:30</p>
 								</section>
 								<section class="panel">
 									<h2>${scoreboardTitle}</h2>
@@ -1138,7 +1139,6 @@ function createServer({ port = 3000, logger, metrics } = {}) {
 								</section>
 							</div>
 						</div>
-						<p>CI/CD deployment test – 23 July 2026, 14:30</p>
 						<p class="page-footer">Copyright © 2026 Sparta Global</p>
 						<p class="mode-pill">Mode: ${mode.modeLabel}</p>
 						<p class="version-stamp">${escapeHtmlAttribute(footerVersionStamp)}</p>
